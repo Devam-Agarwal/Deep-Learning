@@ -88,6 +88,7 @@ SRA attention enables efficient global reasoning.
 - Final upsampling to **240×240**  
 
 Preserves both fine debris structures and large oil slicks.
+<img width="708" height="373" alt="image" src="https://github.com/user-attachments/assets/d02f7a87-1b76-4566-820a-939fb7296f69" />
 
 ---
 
@@ -128,6 +129,8 @@ Dataset is split by **Satellite Scene ID**, preventing leakage and ensuring true
   - Natural Organic Material: 0.6592  
   - Dense Sargassum: 0.8298  
   - Ship: 0.9134
+<img width="301" height="363" alt="image" src="https://github.com/user-attachments/assets/6632e69f-d35b-48a4-b7be-f47fec4c37c8" />
+<img width="472" height="381" alt="image" src="https://github.com/user-attachments/assets/b6cd84a5-aad8-49a4-ab4b-d94f6bfb19d7" />
 
 ---
 
@@ -140,7 +143,8 @@ Model successfully segments:
 - algae streaks  
 - foam & organic matter  
 
-(See report for sample output images.)
+<img width="861" height="565" alt="image" src="https://github.com/user-attachments/assets/9c40b1d8-ade1-499d-8a5a-acb4f8c4bd7f" />
+
 
 ---
 
