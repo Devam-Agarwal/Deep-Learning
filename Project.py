@@ -727,7 +727,7 @@ def visualize_minimal_scene(dataset, idx):
     with rasterio.open(img_path) as src:
         raw_image = src.read().astype(np.float32)
     
-    print(f"\n📸 Processing {filename}...")
+    print(f"\n Processing {filename}...")
     
     # Model Input Norm
     model_input = raw_image.copy()
@@ -772,7 +772,7 @@ def visualize_minimal_scene(dataset, idx):
     plt.tight_layout(); plt.show()
 
 # Execute
-print("👀 Searching for scenes with debris...")
+print(" Searching for scenes with debris...")
 full_scene_ds = MADOSFullSceneDataset('./data/MADOS_nearest')
 count = 0
 for _ in range(100): 
