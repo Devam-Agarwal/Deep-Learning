@@ -162,5 +162,8 @@ Model successfully segments:
 ---
 
 ## License
-MIT License recommended.
+MIT License.
+
+---
+5 minute Project Video Link: https://youtu.be/Y3j5pt_nkoU 
 
